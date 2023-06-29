@@ -1,6 +1,12 @@
 # Simple HTTP router
 
-> :warning: **This project was made for educational purposes only.** It is not intended to be used in production environments.
+The mentioned package provides a functionality to effectively handle HTTP requests by routing them to specific callback functions. This means that instead of directly accessing and executing a particular URL, the package acts as a mediator, directing the requests to their designated callback functions.
+
+To enable this routing mechanism, the package allows users to register URL paths, HTTP methods, and their corresponding callback functions. By specifying the URL paths and the associated HTTP methods, developers can define the specific routes that should trigger certain actions or logic.
+
+When an HTTP request is made, the package comes into action by processing the incoming request. It compares the requested URL path and HTTP method with the registered routes. If a match is found, the corresponding callback function is invoked, allowing the desired logic or functionality to be executed.
+
+In summary, this package provides a comprehensive solution for handling HTTP requests in an organized and controlled manner. It allows developers to register routes, associate them with callback functions, and efficiently process incoming requests, ensuring the appropriate callback function is invoked based on the matching URL paths and HTTP methods.
 
 ## Usage
 
